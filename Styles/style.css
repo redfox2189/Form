@@ -1,9 +1,9 @@
 
 :root(
-    --primary-color #1f1922
+    --primary-color rgb(200,100,150)
     --secondary-color darkorchid
     --text-color #ffffff
-    --background-color #333
+    --background-color #ff0000
     )
 *{
     margin : 0;
@@ -11,40 +11,43 @@
     box-sizing : border-box;
 }
 body{
-    padding-top:0px;
+    padding-top:1rem;
     min-height: 100vh;
     font-family : "Roboto", sans-serif;
     color : var(--background-color);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
     display : flex;
     flex-direction : column;
-    justify-content : space-between;
-    align-items : center;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    background-image: Radial-gradient(circle, rgb(204, 124, 50),rgb(122, 129, 54), rgb(64, 83, 33),rgba(0, 0, 0, 0.644));
+    text-align: center;
+    background-image:Radial-gradient(circle, rgb(204, 124, 50),rgb(122, 129, 54), rgb(64, 83, 33),rgba(0, 0, 0, 0.644));
 }
 
 header{
-    padding-top:0px;
+    max-width: 20%;
     background-color : var(--secondary-color);
     color : #ffffff;
     height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
-    margin-top:auto;
+    margin:auto;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 header h1{
-    font-size : 2rem;
+    font-size : 3rem;
     text-align : left;
-    margin-top : 1%;
-    margin-left : 2%;
+    margin : 1%;
+    text-align: center;
+}
+
+form{
+    margin:auto;
+    padding:1rem;
+    max-width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    max-width:fit-content
 }
 
 main{
