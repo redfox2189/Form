@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Form</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <script src="form.js" defer></script>
 </head>
 <body>
     <!--header-->
@@ -14,8 +15,9 @@
         <h1>My Form</h1>
     </header>
     <!--main-->
+    <!--http://kijinoparagon.github.io/Testing/FormTester-->
     <main>
-        <form action="http://kijinoparagon.github.io/Testing/FormTester" method="get">
+        <form action="" method="get">
         <div>
             <label for="fName">First Name:</label>
             <input type = "text" id="FName" name="FName" placeholder="John" required>
@@ -27,7 +29,12 @@
         </div>
         <br>
         <div>
-            <input type="Submit">
+            <label for = Age>Age:</label>
+            <input type = "number" id="Age" name="Age" min="0" max="120" required>
+        </div>
+        <br>
+        <div>
+            <input id = "SubBtn" type="Submit">
         </div>
         </form>
     </main>
