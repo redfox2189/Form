@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    max-width: 20%;
+    max-width: 40%;
     background-color : var(--secondary-color);
     color : #ffffff;
     height: 10vh;
@@ -33,13 +33,16 @@ header{
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-header h1{
-    font-size : 3rem;
+header h2{
+    font-size : 2rem;
     text-align : left;
     margin : 1%;
     text-align: center;
 }
-
+label{
+    width: 60%;
+    font-size: 1.5rem;
+}
 form{
     margin:auto;
     padding:1rem;
@@ -47,7 +50,7 @@ form{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 input{
-    max-width:fit-content;
+    max-width: 80%;
 }
 
 main{
